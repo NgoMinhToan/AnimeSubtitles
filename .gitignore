@@ -1,0 +1,64 @@
+# Ignore all image files
+*.jpg
+*.jpeg
+*.png
+!assets/*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+
+# Ignore all audio files
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.m4a
+*.wma
+
+# Ignore all video files
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# Ignore all other common media types
+*.psd
+*.ai
+*.eps
+*.raw
+*.ico
+
+# Ignore all font files
+/Anime/**/*.ttf
+/Anime/**/*.otf
+/Anime/**/*.woff
+/Anime/**/*.woff2
+/Anime/**/*.eot
+/Anime/**/*.pfb
+/Anime/**/*.pfm
+/Anime/**/*.svg
+
+/Movie/**/*.ttf
+/Movie/**/*.otf
+/Movie/**/*.woff
+/Movie/**/*.woff2
+/Movie/**/*.eot
+/Movie/**/*.pfb
+/Movie/**/*.pfm
+/Movie/**/*.svg
+
+# extras
+*.nfo
+*.nfo-orig
+*.edl
+*.xml
+*.metathumb
+*.log
+
+.venv/
